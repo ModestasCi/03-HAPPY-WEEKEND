@@ -50,6 +50,7 @@ text-decoration: none;
 color: #3f4371;
 border: 0.1em solid transparent;
 border-radius: 0.2em;
+transition: all 0.5s;
 }
 
 nav>a:first-child {
@@ -70,6 +71,46 @@ main {
 main>div {
     width: 35%;
     float: left;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 58px;
+        text-transform: uppercase;
+        color: #3f4371;
+    }
+
+    h1>span {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        line-height: 1.3em;
+        word-spacing: 0.3em;
+    }
+    main>div>a {
+        display: inline-block;
+        padding: 0.5em;
+        padding-left: 3em;
+        padding-right: 3em;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        background-color: #3f4371;
+        border-radius: 0.3em;
+        box-shadow: 0px 0.5em 0.2em -0.45em #888;
+        transition: all 1s;
+    }
+
+    main>div>a:hover {
+        box-shadow: 0px 0.6em 0.4em -0.5em #555;
+    }
+
+    div>div {
+        margin-top: 250px;
     }
 
     main>img {
@@ -93,7 +134,14 @@ main>div {
 
     <main>
         <div>
-content
+<h1>A happy <span>weekend</span></h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, totam ipsam, soluta rem vel voluptatem ipsum hic officia sed, nisi consectetur ea. Minus obcaecati accusamus nulla deserunt asperiores vitae molestiae!</p>
+<a href="">More</a>
+<div>
+    <a href="#">i</a>
+    <a href="#">t</a>
+    <a href="#">f</a>
+</div>
 </div>
         <img src="./img/yoga.png" alt="Yoga">
     </main>
