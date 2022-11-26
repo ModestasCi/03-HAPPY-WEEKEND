@@ -43,7 +43,7 @@ transition: all 0.5s;
     border-color: #3f4371;
 }
 
-main {
+.main-content {
     display: inline-block;
         width: 800px;
         margin-top: 40px;
@@ -98,6 +98,20 @@ main {
     }
 
     .socials>.icon {
+        width: 2em;
+        height: 2em;
+        float: left;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 2em;
+        text-align: center;
+        background-color: #3f4371;
+        color: white;
+        border-radius: 50%;
+
     }
 
     .right-column {
