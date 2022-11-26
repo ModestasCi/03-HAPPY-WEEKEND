@@ -16,7 +16,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://modestasci.github.io/03-happy-weekend/
 
-Design: [Happy weekend](./design/design.png)
+Design: [Happy weekend] (./design/design.png)
 
 ## 🎯 Project features/goals
 
@@ -25,6 +25,7 @@ Design: [Happy weekend](./design/design.png)
 -   [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - FontAwesome icons
 - fixed width content (desktop only)
+- CSS selectors (https://www.w3schools.com/csSref/css_selectors.php)
 
 ## 🧰 Getting Started
 
